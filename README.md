@@ -1,4 +1,4 @@
-- Home Brew
+1 Home Brew
 
   https://brew.sh/index_ja
   
@@ -10,12 +10,12 @@
   echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/snakai99/.zprofile
   eval "$(/opt/homebrew/bin/brew shellenv)"
   ```
-- Docker Desktop
+1 Docker Desktop
 ```
 https://www.docker.com/products/docker-desktop/
 ```
 
-- kind
+1 kind
 ```
 cat <<EOF> cluster.yaml
 kind: Cluster
