@@ -75,7 +75,7 @@ spec:
 EOF
 ```
 ```
-kubectl aplly -f app-nginx.yaml
+kubectl apply -f app-nginx.yaml
 ```
 ```
 kind delete cluster
