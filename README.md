@@ -1,2 +1,2 @@
-1.Docker Desktop
-2.Home Brew
+- Docker Desktop
+- Home Brew
