@@ -15,9 +15,9 @@
 https://www.docker.com/products/docker-desktop/
 ```
 
--- kind
+- kind
 ```
-cat <<EOF> c.yaml
+cat <<EOF> cluster.yaml
 kind: Cluster
 apiVersion: kind.x-k8s.io/v1alpha4
 nodes:
@@ -28,7 +28,9 @@ nodes:
 - role: worker
 EOF
 ```
-
+```
+kind create cluster cluster.yaml
+```
 ```
 cat <<EOF> d.yaml
 apiVersion: apps/v1
