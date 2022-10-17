@@ -17,9 +17,11 @@
   ```
 
 ## kind
+### kindのインストール
 ```
 brew install kind
 ```
+### clusterの
 ```
 cat <<EOF> cluster.yaml
 kind: Cluster
