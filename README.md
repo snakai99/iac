@@ -29,7 +29,7 @@ nodes:
 EOF
 ```
 ```
-kind create cluster cluster.yaml
+kind create cluster --config=cluster.yaml
 ```
 ```
 cat <<EOF> d.yaml
@@ -67,4 +67,7 @@ spec:
     - port: 80
       nodePort: 30080
 EOF
+```
+```
+kind delete cluster
 ```
