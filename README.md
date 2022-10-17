@@ -14,3 +14,14 @@
 ```
 https://www.docker.com/products/docker-desktop/
 ```
+
+-- kind
+```
+echo <<EOF> c.xml
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+nodes:
+- role: control-plane
+- role: worker
+EOF
+```
