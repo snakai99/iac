@@ -10,10 +10,11 @@
   echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/snakai99/.zprofile
   eval "$(/opt/homebrew/bin/brew shellenv)"
   ```
+
 1. Docker Desktop
-```
-https://www.docker.com/products/docker-desktop/
-```
+  ```
+  https://www.docker.com/products/docker-desktop/
+  ```
 
 1. kind
 ```
