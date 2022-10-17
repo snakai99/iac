@@ -17,7 +17,7 @@ https://www.docker.com/products/docker-desktop/
 
 -- kind
 ```
-cat <<EOF> c.xml
+cat <<EOF> c.yaml
 kind: Cluster
 apiVersion: kind.x-k8s.io/v1alpha4
 nodes:
@@ -30,7 +30,7 @@ EOF
 ```
 
 ```
-cat <<EOF> d.xml
+cat <<EOF> d.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
