@@ -8,6 +8,7 @@
   ```
   echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/snakai99/.zprofile
   echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/snakai99/.zprofile
+  eval "$(/opt/homebrew/bin/brew shellenv)"
   ```
 - Docker Desktop
 
