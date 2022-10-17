@@ -1,4 +1,4 @@
-1. Home Brew
+## Home Brew
 
   https://brew.sh/index_ja
   
@@ -11,12 +11,15 @@
   eval "$(/opt/homebrew/bin/brew shellenv)"
   ```
 
-1. Docker Desktop
+## Docker Desktop
   ```
   https://www.docker.com/products/docker-desktop/
   ```
 
-1. kind
+## kind
+```
+brew install kind
+```
 ```
 cat <<EOF> cluster.yaml
 kind: Cluster
