@@ -32,7 +32,7 @@ EOF
 kind create cluster --config=cluster.yaml
 ```
 ```
-cat <<EOF> d.yaml
+cat <<EOF> app-nginx.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -67,6 +67,9 @@ spec:
     - port: 80
       nodePort: 30080
 EOF
+```
+```
+kubectl aplly -f app-nginx.yaml
 ```
 ```
 kind delete cluster
