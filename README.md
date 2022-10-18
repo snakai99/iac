@@ -41,6 +41,7 @@ kind create cluster --config=cluster.yaml
 
 ### マニフェスト作成
 ```
+cat <<EOF> app-nginx.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -74,6 +75,7 @@ spec:
   ports:
   - port: 8080
     targetPort: 80
+EOF
 ```
 
 ```
