@@ -14,8 +14,8 @@ https://event.cloudnativedays.jp/cndt2020/talks/47
   
   参考
   ```
-  echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/snakai99/.zprofile
-  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/snakai99/.zprofile
+  echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/xxxxx/.zprofile
+  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/xxxxx/.zprofile
   eval "$(/opt/homebrew/bin/brew shellenv)"
   ```
  https://brew.sh/index_ja
