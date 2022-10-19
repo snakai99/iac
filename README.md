@@ -155,7 +155,7 @@ alias k=kubectl
 ```
 
 ```
-cat <<EOF> app-nginx.yaml
+cat <<EOF> app-httpd.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
