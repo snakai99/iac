@@ -174,7 +174,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.7.9
+        image: httpd
         ports:
         - containerPort: 80
 EOF
