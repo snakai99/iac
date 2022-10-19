@@ -92,6 +92,9 @@ kubectl apply -f app-nginx.yaml
 
 
 ## おまけ
+
+https://github.com/snakai99/iac/blob/main/README.md
+
 ```
 cat <<EOF> app-nginx.yaml
 apiVersion: apps/v1
