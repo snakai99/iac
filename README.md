@@ -107,7 +107,7 @@ https://github.com/snakai99/iac/blob/main/README.md
 https://speakerdeck.com/masatoshitada/kubernetes-basics-for-application-developers
 
 ```
-cat <<EOF> app-nginx.yaml
+cat <<EOF> app-httpd.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -178,4 +178,7 @@ spec:
         ports:
         - containerPort: 80
 EOF
+```
+```
+kubectl apply -f app-httpd.yaml
 ```
