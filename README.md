@@ -139,3 +139,13 @@ spec:
       nodePort: 30080
 EOF
 ```
+
+.zshrc
+```
+autoload -Uz compinit
+compinit
+
+source <(kubectl completion zsh)
+
+alias k=kubectl
+```
