@@ -182,3 +182,9 @@ EOF
 ```
 kubectl apply -f app-httpd.yaml
 ```
+```
+cat <<EOF> start
+open https://github.com/snakai99/iac/blob/main/README.md
+EOF
+chmod +x start
+```
