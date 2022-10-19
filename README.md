@@ -95,6 +95,8 @@ kubectl apply -f app-nginx.yaml
 
 https://github.com/snakai99/iac/blob/main/README.md
 
+https://speakerdeck.com/masatoshitada/kubernetes-basics-for-application-developers
+
 ```
 cat <<EOF> app-nginx.yaml
 apiVersion: apps/v1
