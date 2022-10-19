@@ -1,3 +1,6 @@
+## 動画
+https://event.cloudnativedays.jp/cndt2020/talks/47
+
 ## Docker Desktop
   ```
   https://www.docker.com/products/docker-desktop/
