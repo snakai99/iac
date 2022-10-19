@@ -1,6 +1,9 @@
-## Home Brew
+## Docker Desktop
+  ```
+  https://www.docker.com/products/docker-desktop/
+  ```
 
-  https://brew.sh/index_ja
+## Home Brew
   
   ```
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -10,11 +13,8 @@
   echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/snakai99/.zprofile
   eval "$(/opt/homebrew/bin/brew shellenv)"
   ```
-
-## Docker Desktop
-  ```
-  https://www.docker.com/products/docker-desktop/
-  ```
+ https://brew.sh/index_ja
+ 
 
 ## kind
 ### kindのインストール
@@ -38,8 +38,12 @@ EOF
 kind create cluster --config=cluster.yaml
 ```
 
+参考
+```
+kind delete cluster
+```
 
-### マニフェスト作成
+## マニフェスト作成、kubectl実行
 ```
 cat <<EOF> app-nginx.yaml
 apiVersion: apps/v1
@@ -77,7 +81,17 @@ spec:
     targetPort: 80
 EOF
 ```
+```
+kubectl apply -f app-nginx.yaml
+```
 
+
+
+
+
+
+
+## おまけ
 ```
 cat <<EOF> app-nginx.yaml
 apiVersion: apps/v1
@@ -114,10 +128,4 @@ spec:
     - port: 80
       nodePort: 30080
 EOF
-```
-```
-kubectl apply -f app-nginx.yaml
-```
-```
-kind delete cluster
 ```
