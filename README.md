@@ -11,6 +11,8 @@ https://event.cloudnativedays.jp/cndt2020/talks/47
   ```
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   ```
+  
+  参考
   ```
   echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/snakai99/.zprofile
   echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/snakai99/.zprofile
