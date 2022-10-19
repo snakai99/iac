@@ -90,7 +90,7 @@ kubectl apply -f app-nginx.yaml
 
 動作確認
 ```
-kubectl run temp --image=centos --rm --restart=Never -it -- curl http://nginx-service:8080
+kubectl run temp --image=curlimages/curl --rm --restart=Never -it -- curl http://nginx-service:8080
 ```
 
 
