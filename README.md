@@ -109,7 +109,31 @@ spec:
   - port: 8080
     targetPort: 80
 EOF
+cat <<EOF> app-httpd.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: httpd
+        ports:
+        - containerPort: 80
+EOF
 kubectl apply -f app-nginx.yaml
+kubectl apply -f app-httpd.yaml
 ```
 
 動作確認
