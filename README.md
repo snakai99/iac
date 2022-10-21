@@ -38,8 +38,7 @@ nodes:
     hostPort: 30070
 - role: worker
 EOF
-```
-```
+kind delete cluster
 kind create cluster --config=cluster.yaml
 ```
 
