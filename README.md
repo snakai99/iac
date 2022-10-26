@@ -26,6 +26,9 @@ https://event.cloudnativedays.jp/cndt2020/talks/47
 ```
 brew install kind
 ```
+### つくって学ぶKubebuilder
+https://zoetrope.github.io/kubebuilder-training/
+
 ### clusterの作成
 ```
 cat <<EOF> cluster.yaml
